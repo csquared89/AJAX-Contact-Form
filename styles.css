@@ -6,11 +6,21 @@
 
 html {
   -webkit-font-smoothing: antialiased;
+  background-image: url("../images/dust_scratches.png");
 }
 
 body {
     max-width: 80%;
     margin: auto !important;
+}
+
+nav.navbar {
+  background: transparent;
+}
+
+.AboutMe {
+    margin: 3% 0 3% 0;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 #page-wrapper {
